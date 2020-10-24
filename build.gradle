@@ -19,6 +19,7 @@ repositories {
     maven { url 'https://repo.extendedclip.com/content/repositories/placeholderapi/' }
     maven { url 'https://rayzr.dev/repo/' }
     maven { url "http://repo.dakanilabs.com/repository/public/" }
+    maven { url "https://repo.dmulloy2.net/nexus/repository/public/" }
 }
 
 dependencies {
@@ -28,6 +29,7 @@ dependencies {
     compile 'io.izzel.taboolib:TabooLib:5.42:all'
     compile 'io.izzel.taboolib:TabooLibLoader:2.5:all'
     compile 'me.clip:placeholderapi:2.10.7'
+    compileOnly group: "com.comphenix.protocol", name: "ProtocolLib", version: "4.6.0-SNAPSHOT"
     shadow fileTree(dir: 'libs', includes: ['*.jar'])
 }
 

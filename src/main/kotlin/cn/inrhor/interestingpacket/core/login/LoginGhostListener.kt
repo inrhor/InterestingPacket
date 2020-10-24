@@ -2,7 +2,6 @@ package cn.inrhor.interestingpacket.core.login
 
 import cn.inrhor.interestingpacket.InterestingPacket
 import cn.inrhor.interestingpacket.PluginLoader
-import cn.inrhor.interestingpacket.utils.MsgUtil
 import fr.xephi.authme.events.LoginEvent
 import io.izzel.taboolib.module.inject.TListener
 import org.bukkit.event.EventHandler
