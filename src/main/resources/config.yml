@@ -1,0 +1,21 @@
+# 基本设置
+setting:
+  # 语言
+  lang: "zh_CN"
+
+# 关于登录
+login:
+  # 随机登录
+  random:
+    # 是否启用
+    enable: true
+  # 登录状态透明
+  ghost:
+    # 是否启用
+    # 需要 AuthMe
+    enable: true
+  # 数据包玩家离线状态
+  offlineState:
+    # 是否启用
+    # 需要 ProtocoLib
+    enable: true
