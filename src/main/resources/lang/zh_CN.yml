@@ -1,0 +1,7 @@
+COMMAND_DESCRIPTION:
+  RANDOMLOGIN_SET: "设置随机登陆的中心点"
+  VAR:
+    POST_INT: "正整数"
+
+POST_INT: "&c请输入正确正整数"
+RANDOMLOGIN_SET: "&a已在你的中心位置设置随机 &F{0} &A半径的登陆点"

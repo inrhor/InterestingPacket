@@ -1,0 +1,34 @@
+# 基本设置
+setting:
+  # 语言
+  lang: "zh_CN"
+
+# 关于服务器信息
+motd:
+  # 是否启用
+  enable: true
+  # 图标，后缀为 .png
+  icon: "icon"
+  # 信息
+  text:
+    one: "&f这是第一行的 MOTD"
+    two: "&a这就是第二行"
+  # 是否隐藏在线人数和最大人数
+  hideMember: true
+
+# 关于登录
+login:
+  # 随机登录
+  random:
+    # 是否启用
+    enable: true
+  # 登录状态透明
+  ghost:
+    # 是否启用
+    # 需要 AuthMe
+    enable: true
+  # 数据包玩家离线状态
+  offlineState:
+    # 是否启用
+    # 需要 ProtocoLib
+    enable: true
